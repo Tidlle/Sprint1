@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat HC - App HC</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/chat.css">
+</head>
+<body class="default-page">
+  <header class="header">
+    <img src="img/logo.png" alt="Logo HC" class="logo-header">
+    <button class="logout-button">↵</button>
+  </header>
+
+  <div class="chat-container">
+    <div class="titulo-voltar">
+        <h2 class="titulo">Chat HC</h2>
+        <button class="botao-voltar" onclick="window.location.href='index.html'">⬅️</button>
+    </div>
+
+    <div id="chat-mensagens" class="chat-mensagens">
+      <!-- Mensagens vão aparecer aqui -->
+    </div>
+
+    <form id="form-chat" class="chat-form">
+      <input type="text" id="input-mensagem" placeholder="Tire dúvidas sobre o HC" required>
+      <button type="submit" class="botao">Enviar</button>
+    </form>
+  </div>
+
+  <nav class="nav-bottom">
+    <a href="index.html" class="nav-icon">🏠</a>
+    <a href="minhas_consultas.html" class="nav-icon">📅</a>
+    <a href="usuario.html" class="nav-icon">👤</a>
+  </nav>
+
+  <script src="js/chat.js" defer></script>
+  <script src="js/index.js" defer></script>
+</body>
+</html>

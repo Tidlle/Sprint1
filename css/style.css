@@ -1,0 +1,235 @@
+/* Estilos Gerais */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding-bottom: 80px;
+  width: 393px;
+  min-height: 852px;
+  height: 852px; /* altura total da tela */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #207FC1;
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+
+/* Fundo para páginas específicas */
+body.login-page, body.cadastro-page {
+  background-color: #ffffff;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.logo-header {
+  width: 80px;
+}
+
+.logout-button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #21A2AA;
+  cursor: pointer;
+}
+
+/* Título */
+.titulo {
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Menu de Botões (Home) */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.menu-btn {
+  width: 140px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  background-color: #21A2AA;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-btn:hover {
+  background-color: #1c8d92;
+}
+
+.menu-icon {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+/* Formulários */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #4096d0;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+
+/* Botões */
+.botao, .botao-editar, .chat-form button {
+  background-color: #21A2AA;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.botao:hover, .botao-editar:hover, .chat-form button:hover {
+  background-color: #1c8d92;
+}
+
+/* Link de login */
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #008b9a;
+}
+
+.login-link a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* NAV Inferior */
+.nav-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 393px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e6f2f7;
+  padding: 10px 0;
+  border-top: 2px solid #1c78c2;
+  z-index: 1000;
+}
+
+.nav-icon {
+  font-size: 24px;
+  color: #1c78c2;
+  text-decoration: none;
+}
+
+.nav-icon.active {
+  font-weight: bold;
+  color: #0d5e96;
+}
+
+/* Containers */
+.consulta-confirmada,
+.detalhes-consulta,
+.marcar-consulta,
+.minhas-consultas,
+.faq-container,
+.quem-somos-container,
+.usuario-container {
+  padding: 20px;
+  width: 90%;
+  max-width: 393px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lista-consultas {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-consultas li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  flex-direction: column;
+}
+
+.ver-detalhes {
+  margin-top: 8px;
+  text-decoration: none;
+  color: #1c78c2;
+  font-weight: bold;
+}
+
+.ver-detalhes:hover {
+  text-decoration: underline;
+}
+
+.titulo-voltar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.botao-voltar {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.botao-voltar:hover {
+  color: #0d5e96;
+}
+
+.titulo {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}

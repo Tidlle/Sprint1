@@ -1,0 +1,82 @@
+body.login-page,
+body.cadastro-page {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 852px;
+  width: 393px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  width: 300px;
+  margin-bottom: 30px auto 10px;
+  padding: 0px;
+  padding-left: 30px;
+  display: block;
+}
+
+.form-container {
+  width: 90%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  color: #0097A7;
+  margin: 20px 0;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid #4096d0;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #eeeeee;
+}
+
+.botao {
+  padding: 14px;
+  background-color: #207FC1;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #1a6cae;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #0077cc;
+}
+
+.login-link a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+header{
+    height: 250px;
+    margin-bottom: 0px;
+    padding: 0px;
+}

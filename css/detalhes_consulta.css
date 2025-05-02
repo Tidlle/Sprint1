@@ -1,0 +1,57 @@
+.detalhes-consulta {
+  padding: 20px;
+  width: 300px;
+  max-width: 393px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titulo-voltar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.botao-voltar {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.botao-voltar:hover {
+  color: #0d5e96;
+}
+
+.titulo {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+
+.consulta-container {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.consulta-container h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #1c78c2;
+}
+
+.consulta-container p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.lista-consulta{
+    background-color: #fff;
+}

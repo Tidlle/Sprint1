@@ -1,0 +1,35 @@
+.usuario-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .dados-usuario {
+    text-align: left;
+    margin: 20px 0;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .dados-usuario p {
+    margin: 10px 0;
+  }
+  
+  .botao-editar {
+    background-color: #21A2AA;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .botao-editar:hover {
+    background-color: #1c8d92;
+  }
+  

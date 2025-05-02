@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcar Consulta - App HC</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/marcar_consulta.css">
+</head>
+<body class="default-page">
+<header class="header">
+  <img src="img/logo.png" alt="Logo HC" class="logo-header">
+  <button class="logout-button">↵</button>
+</header>
+
+<div class="marcar-consulta">
+  <div class="titulo-voltar">
+    <h2 class="titulo">Marcar Consulta</h2>
+    <button class="botao-voltar" onclick="window.location.href='index.html'">⬅️</button>
+  </div>
+
+  <form class="formulario" id="form-marca-consulta">
+    <input type="text" id="especialidade" placeholder="Especialidade" required>
+    <input type="date" id="data" required>
+    <input type="time" id="hora" required>
+    <input type="text" id="local" placeholder="Local da Consulta" required>
+    <button type="submit" class="botao">Agendar</button>
+  </form>
+</div>
+
+<nav class="nav-bottom">
+  <a href="index.html" class="nav-icon">🏠</a>
+  <a href="minhas_consultas.html" class="nav-icon">📅</a>
+  <a href="usuario.html" class="nav-icon">👤</a>
+</nav>
+
+<script src="js/marcar_consulta.js" defer></script>
+<script src="js/index.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.consulta-confirmada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .mensagem-consulta {
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .botao {
+    background-color: #21A2AA;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .botao:hover {
+    background-color: #1c8d92;
+  }
+  

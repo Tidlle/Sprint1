@@ -1,0 +1,40 @@
+.quem-somos-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 393px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .integrante {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #1c78c2;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .integrante img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #f0f0f0;
+  }
+  
+  .integrante p {
+    margin: 2px 0;
+    font-size: 14px;
+  }
+  
+  .integrante a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+  
+  .integrante a:hover {
+    color: #ccefff;
+  }

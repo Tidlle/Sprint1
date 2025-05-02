@@ -1,0 +1,88 @@
+.minhas-consultas {
+  padding: 20px;
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.calendario-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.btn-mes {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+}
+
+.calendario-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.dia-semana {
+  font-weight: bold;
+  font-size: 10px;
+  color: #1c78c2;
+}
+
+.dia {
+  width: 100%;
+  height: 48px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.consulta-marcada {
+  background-color: #21A2AA;
+  color: white;
+}
+
+.icone-consulta {
+  font-size: 16px;
+}
+
+.texto-consulta {
+  font-size: 8px;
+  margin-top: 2px;
+}
+
+.botao {
+  background-color: #21A2AA;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  width: 90%;
+}
+
+.botao:hover {
+  background-color: #1c8d92;
+}
