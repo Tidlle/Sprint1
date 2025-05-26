@@ -5,20 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quem Somos - App HC</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/quem_somos.css">
 </head>
 <body class="default-page">
   <header class="header">
     <img src="img/logo.png" alt="Logo HC" class="logo-header">
-    <button class="logout-button">↵</button>
+    <button class="logout-button">↵ Sair</button>
+    <button id="sidebar-toggle" class="sidebar-toggle">☰</button>
   </header>
-
-  <div class="quem-somos-container">
-    <div class="titulo-voltar">
+<div class="titulo-voltar">
         <h2 class="titulo">Quem Somos</h2>
-        <button class="botao-voltar" onclick="window.location.href='index.html'">⬅️</button>
+        <button class="botao-voltar" onclick="window.location.href='index.html'">Voltar</button>
     </div>
-
+  <div class="quem-somos-container">
     <div class="integrante">
       <img src="img/foto1.png" alt="Foto Eduardo Martins">
       <div>
@@ -33,7 +31,7 @@
     <div class="integrante">
       <img src="img/foto2.png" alt="Foto Integrante 2">
       <div>
-        <p><strong>Eduardo Martins</strong></p>
+        <p><strong>Vitor Madrigrano</strong></p>
         <p>RM 562259</p>
         <p>1TDSA</p>
         <p><a href="#" target="_blank">Link GitHub</a></p>
@@ -41,10 +39,10 @@
       </div>
     </div>
 
-    <div class="integrante">
+    <div class="integrante2">
       <img src="img/foto3.png" alt="Foto Integrante 3">
       <div>
-        <p><strong>Eduardo Martins</strong></p>
+        <p><strong>Thiago</strong></p>
         <p>RM 562259</p>
         <p>1TDSA</p>
         <p><a href="#" target="_blank">Link GitHub</a></p>
@@ -58,6 +56,14 @@
     <a href="minhas_consultas.html" class="nav-icon">📅</a>
     <a href="usuario.html" class="nav-icon">👤</a>
   </nav>
+
+  <aside id="sidebar" class="sidebar">
+    <button class="logout-button">↵ Sair</button><br>
+    <a href="index.html" class="nav-icon">🏠 Início</a>
+    <a href="minhas_consultas.html" class="nav-icon">📅 Consultas</a>
+    <a href="usuario.html" class="nav-icon">👤 Perfil</a>
+    
+  </aside>
 
   <script src="js/index.js" defer></script>
 </body>

@@ -1,73 +1,81 @@
-body.login-page,
-body.cadastro-page {
-  background-color: white;
+/* Estilos da Página de Login */
+
+body.login-page {
+  background-color: #ffffff;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  min-height: 852px;
-  width: 393px;
-  margin: 0 auto;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.logo-img {
-  width: 300px;
-  margin-bottom: 30px auto 10px;
-  padding: 0px;
-  padding-left: 30px;
-  display: block;
-}
-
-.form-container {
+.login-container {
   width: 90%;
-  max-width: 360px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.titulo {
-  color: #0097A7;
-  margin: 20px 0;
+  max-width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
   text-align: center;
 }
 
-form {
-  width: 100%;
+.login-container img {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.login-container h2 {
+  color: #008b9a;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.login-container p {
+  font-size: 18px;
+}
+
+.login-container form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  align-items: center;
 }
 
-input {
+.login-container input {
+  width: 100%;
   padding: 12px;
+  margin: 8px 0;
   border: 2px solid #4096d0;
   border-radius: 6px;
+  background-color: #eaeaea;
   font-size: 16px;
-  background-color: #eeeeee;
+  box-sizing: border-box;
 }
 
-.botao {
-  padding: 14px;
-  background-color: #207FC1;
+.login-container button {
+  width: 100%;
+  background-color: #1c78c2;
   color: white;
-  font-size: 16px;
   border: none;
   border-radius: 6px;
+  font-size: 18px;
+  padding: 12px;
+  margin-top: 10px;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
-.botao:hover {
-  background-color: #1a6cae;
+.login-container button:hover {
+  background-color: #155a94;
 }
 
 .login-link {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 14px;
-  color: #0077cc;
+  color: #0066cc;
 }
 
 .login-link a {
-  color: #0077cc;
+  color: #0066cc;
   text-decoration: none;
 }
 
@@ -75,8 +83,134 @@ input {
   text-decoration: underline;
 }
 
-header{
-    height: 250px;
-    margin-bottom: 0px;
-    padding: 0px;
+
+/* Extra Small Devices (≤600px) */
+@media (max-width: 600px) {
+  .login-container {
+    padding: 15px;
+  }
+
+  .login-container img {
+    width: 250px;
+  }
+
+  .login-container h2 {
+    font-size: 20px;
+  }
+
+  .login-container p {
+    font-size: 16px;
+  }
+
+  .login-container input {
+    font-size: 15px;
+  }
+
+  .login-container button {
+    font-size: 16px;
+  }
+}
+
+/* Small Devices (≥600px) */
+@media (min-width: 600px) {
+  .login-container {
+    max-width: 460px;
+  }
+
+  .login-container img {
+    width: 320px;
+  }
+
+  .login-container h2 {
+    font-size: 22px;
+  }
+
+  .login-container p {
+    font-size: 18px;
+  }
+
+  .login-container button {
+    font-size: 18px;
+  }
+}
+
+/* Medium Devices (≥768px) */
+@media (min-width: 768px) {
+  .login-container {
+    max-width: 500px;
+  }
+
+  .login-container img {
+    width: 360px;
+  }
+
+  .login-container h2 {
+    font-size: 24px;
+  }
+
+  .login-container p {
+    font-size: 20px;
+  }
+
+  .login-container input {
+    font-size: 17px;
+  }
+
+  .login-container button {
+    font-size: 20px;
+  }
+}
+
+/* Large Devices (≥992px) */
+@media (min-width: 992px) {
+  .login-container {
+    max-width: 600px;
+  }
+
+  .login-container img {
+    width: 400px;
+  }
+
+  .login-container h2 {
+    font-size: 26px;
+  }
+
+  .login-container p {
+    font-size: 22px;
+  }
+
+  .login-container input {
+    font-size: 18px;
+  }
+
+  .login-container button {
+    font-size: 22px;
+  }
+}
+
+/* Extra Large Devices (≥1300px) */
+@media (min-width: 1300px) {
+  .login-container {
+    max-width: 700px;
+  }
+
+  .login-container img {
+    width: 450px;
+  }
+
+  .login-container h2 {
+    font-size: 28px;
+  }
+
+  .login-container p {
+    font-size: 24px;
+  }
+
+  .login-container input {
+    font-size: 20px;
+  }
+
+  .login-container button {
+    font-size: 24px;
+  }
 }

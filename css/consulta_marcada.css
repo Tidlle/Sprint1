@@ -1,30 +1,111 @@
 .consulta-confirmada {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.mensagem-consulta {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.botao {
+  background-color: #21A2AA;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.botao:hover {
+  background-color: #1c8d92;
+}
+
+/* Extra Small Devices (≤600px) */
+@media (max-width: 600px) {
+  .mensagem-consulta {
+    font-size: 16px;
   }
-  
+
+  .botao {
+    font-size: 14px;
+    max-width: 250px;
+  }
+}
+
+/* Small Devices (≥600px) */
+@media (min-width: 600px) {
+  .consulta-confirmada {
+    max-width: 460px;
+  }
+
   .mensagem-consulta {
     font-size: 18px;
-    margin: 20px 0;
-    text-align: center;
-    color: #fff;
   }
-  
+
   .botao {
-    background-color: #21A2AA;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 6px;
     font-size: 16px;
-    text-decoration: none;
-    cursor: pointer;
+    max-width: 300px;
   }
-  
-  .botao:hover {
-    background-color: #1c8d92;
+}
+
+/* Medium Devices (≥768px) */
+@media (min-width: 768px) {
+  .consulta-confirmada {
+    max-width: 500px;
   }
-  
+
+  .mensagem-consulta {
+    font-size: 20px;
+  }
+
+  .botao {
+    font-size: 18px;
+    max-width: 320px;
+  }
+}
+
+/* Large Devices (≥992px) */
+@media (min-width: 992px) {
+  .consulta-confirmada {
+    max-width: 600px;
+  }
+
+  .mensagem-consulta {
+    font-size: 22px;
+  }
+
+  .botao {
+    font-size: 20px;
+    max-width: 350px;
+  }
+}
+
+/* Extra Large Devices (≥1300px) */
+@media (min-width: 1300px) {
+  .consulta-confirmada {
+    max-width: 700px;
+  }
+
+  .mensagem-consulta {
+    font-size: 24px;
+  }
+
+  .botao {
+    font-size: 22px;
+    max-width: 380px;
+  }
+}

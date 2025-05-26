@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Perfil do Usuário - App HC</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/usuario.css">
 </head>
 <body class="default-page">
 <header class="header">
   <img src="img/logo.png" alt="Logo HC" class="logo-header">
-  <button class="logout-button">↵</button>
+  <button class="logout-button">↵ Sair</button>
+  <button id="sidebar-toggle" class="sidebar-toggle">☰</button>
 </header>
 
 <div class="usuario-container">
-  <div class="titulo-voltar">
-    <h2 class="titulo">Perfil do Usuário</h2>
-    <button class="botao-voltar" onclick="window.location.href='index.html'">⬅️</button>
+  <div class="usuario-header">
+    <h2>Meus Dados</h2>
+    <a href="index.html" class="botao-voltar">Voltar</a>
   </div>
 
   <div class="dados-usuario">
@@ -30,6 +30,13 @@
   <a href="minhas_consultas.html" class="nav-icon">📅</a>
   <a href="usuario.html" class="nav-icon active">👤</a>
 </nav>
+
+<aside id="sidebar" class="sidebar">
+  <button class="logout-button">↵ Sair</button><br>
+  <a href="index.html" class="nav-icon">🏠 Início</a>
+  <a href="minhas_consultas.html" class="nav-icon">📅 Consultas</a>
+  <a href="usuario.html" class="nav-icon">👤 Perfil</a>
+</aside>
 
 <script src="js/index.js" defer></script>
 </body>
