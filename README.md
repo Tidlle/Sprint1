@@ -25,7 +25,6 @@ O projeto tem como finalidade oferecer uma interface acessível e responsiva par
 
 - Eduardo Martins – RM562259
 - Vitor Madrigrano – RM564191
-- Thiago Sposito – RM561694
 
 ---
 
